@@ -12,9 +12,9 @@
   go on a trip with your friends where multiple people pay for shared expenses. At the end of the trip, you would need
   to calculate how much each person owes and to whom.
 - Three types of expense sharing:
-    - Split Equal
-    - Split Unequal - Amt
-    - Split Unequal - %
+  - Split Equal
+  - Split Unequal - Amt
+  - Split Unequal - %
 
 ## Requirements
 
@@ -27,21 +27,22 @@
 > 5. The admin can create, edit, delete an event.
 > 6. The admin can update or delete expenses.
 
-### User:
+### Participant:
 
-> 1. The user must be able to register.
-> 2. The user must be able to log in.
-> 3. Each participant can create expenses.
-> 4. The user can view all expenses.
-> 5. The user can view the balance.
-> 6. After the deadline, the user should receive the report by e-mail
+> 1. The participant must be able to register.
+> 2. The participantmust be able to log in.
+> 3. The participant can create event.
+> 4. Each participant can create expenses.
+> 5. The participantcan view all expenses.
+> 6. The participantcan view the balance.
+> 7. After the deadline, the participant should receive the report by e-mail
 
 ## API Docs
 
 > - Swagger UI: http://localhost:8080/swagger-ui/index.html
 
 | URL template             | Description                                      | Access      |
-|--------------------------|--------------------------------------------------|-------------|
+| ------------------------ | ------------------------------------------------ | ----------- |
 | GET /events              | Get a list of events                             | user, admin |
 | GET /events/id           | Get event details                                | user, admin |
 | POST /events             | Create a new event                               | user, admin |
@@ -65,5 +66,3 @@
 - MySQL
 - Docker
 - Git
-
-
