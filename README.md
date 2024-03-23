@@ -40,8 +40,9 @@
 ## API Docs
 
 > - Swagger UI: http://localhost:8080/swagger-ui/index.html
+> - Entity Relationship Diagram:
 
-![ER-Diagram](file:///C:/IT/JAVA/PORTFOLIO/Expense%20Calculator/ER-diagram.png)
+![loading-ag-249](C:/IT/JAVA/PORTFOLIO/Expense%20Calculator/ER-diagram.png)
 
 | URL template             | Description                                      | Access      |
 | ------------------------ | ------------------------------------------------ | ----------- |
