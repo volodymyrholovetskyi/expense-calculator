@@ -47,9 +47,6 @@
 ## API Docs
 
 > - Swagger UI: http://localhost:8080/swagger-ui/index.html
-> - Entity Relationship Diagram:
-
-![loading-ag-252](./ER-diagram.png)
 
 | URL template             | Description                                      | Access      |
 | ------------------------ | ------------------------------------------------ | ----------- |
