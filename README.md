@@ -1,6 +1,7 @@
 # Expense Calculator (in progress)
 
 * [General info](#general-info)
+* [Design](#design)
 * [Requirement](#requirements)
 * [API Docs](#api-docs)
 * [Technologies](#technologies)
@@ -15,6 +16,12 @@
   - Split Equal
   - Split Unequal - Amt
   - Split Unequal - %
+
+## Design
+
+##### Database design:
+
+![ER-diagram](./ER-diagram.png)
 
 ## Requirements
 
@@ -42,7 +49,7 @@
 > - Swagger UI: http://localhost:8080/swagger-ui/index.html
 > - Entity Relationship Diagram:
 
-![loading-ag-249](C:/IT/JAVA/PORTFOLIO/Expense%20Calculator/ER-diagram.png)
+![loading-ag-252](./ER-diagram.png)
 
 | URL template             | Description                                      | Access      |
 | ------------------------ | ------------------------------------------------ | ----------- |
