@@ -41,6 +41,8 @@
 
 > - Swagger UI: http://localhost:8080/swagger-ui/index.html
 
+![ER-Diagram](file:///C:/IT/JAVA/PORTFOLIO/Expense%20Calculator/ER-diagram.png)
+
 | URL template             | Description                                      | Access      |
 | ------------------------ | ------------------------------------------------ | ----------- |
 | GET /events              | Get a list of events                             | user, admin |
